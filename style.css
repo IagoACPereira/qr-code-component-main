@@ -1,0 +1,67 @@
+@media screen and (max-width:1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        font-family: Outfit-Regular;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(212, 45%, 89%);
+    }
+    
+    #container {
+        width: 300px;
+        border-radius: 15px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+    #qr_code {
+        padding: 15px;
+    }
+    
+    #qr_code img {
+        width: 100%;
+        border-radius: 7.5px;
+    
+    }
+    
+    #content {
+        text-align: center;
+        padding: 0 25px 25px 25px;
+    }
+    
+    #content h2 {
+        margin-bottom: 15px;
+        font-family: Outfit-Bold;
+        font-size: 20px;        
+    }
+    
+    #content p {
+        color: hsl(220, 15%, 55%);
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    
+}
+
+@font-face {
+    font-family: Outfit-Regular;
+    src: url(fonts/Outfit-Regular.woff);
+}
+
+@font-face {
+    font-family: Outfit-Bold;
+    src: url(fonts/Outfit-Bold.woff);
+}
